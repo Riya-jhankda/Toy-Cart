@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item name = "1">"RC CAR"</item>
+        <item name = "2">"Teddy Bear"</item>
+        <item name = "3">"Barbie"</item>
+        <item name = "4">"Nerf Gun"</item>
+    </string-array>
+</resources>
