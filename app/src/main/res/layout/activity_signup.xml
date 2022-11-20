@@ -166,7 +166,7 @@
         app:layout_constraintTop_toTopOf="@+id/c5" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/already"
+        android:id="@+id/already1"
         android:layout_width="350dp"
         android:layout_height="40dp"
 
@@ -177,6 +177,7 @@
         app:layout_constraintTop_toTopOf="@+id/c2">
 
         <TextView
+                    android:id="@+id/already"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
