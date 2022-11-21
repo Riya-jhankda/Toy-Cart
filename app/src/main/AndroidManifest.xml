@@ -20,7 +20,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,6 +32,14 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+        </activity>
+
+
 
         <meta-data
             android:name="preloaded_fonts"

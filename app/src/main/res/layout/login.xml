@@ -148,7 +148,9 @@
             android:layout_gravity="center"
             android:text="Create a new account"
             android:textColor="#072270"
-            android:textSize="25sp" />
+            android:id="@+id/addText"
+            android:textSize="25sp"
+            tools:ignore="InvalidId" />
     </androidx.cardview.widget.CardView>
 
     <Button

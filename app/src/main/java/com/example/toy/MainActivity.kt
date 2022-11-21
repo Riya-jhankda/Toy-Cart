@@ -3,8 +3,13 @@ package com.example.toy
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import android.view.ViewGroup
+import android.view.View
+import android.widget.Button
+import androidx.fragment.app.FragmentTransaction
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,5 +40,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent()
         }
     }
+    val fragmentTransaction: FragmentTransaction = supportFragmentManager.beginTransaction()
+
+
+
 
 }
