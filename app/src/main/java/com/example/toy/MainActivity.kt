@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent()
         }
     }
-    val fragmentTransaction: FragmentTransaction = supportFragmentManager.beginTransaction()
+
 
 
 
