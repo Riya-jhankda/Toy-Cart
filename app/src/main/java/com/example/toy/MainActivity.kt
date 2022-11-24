@@ -118,6 +118,11 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.setFragmentResult("requestKey", bundle)
         }
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c332b19672690e431815461aee582ec5f9cadc68
 
 
 
