@@ -17,7 +17,9 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_view_header"
-        app:menu="@menu/nav_menu">
+        android:background="@color/white"
+        app:menu="@menu/nav_menu"
+        app:itemTextColor="@color/black">
 
     </com.google.android.material.navigation.NavigationView>
 
